@@ -17,11 +17,11 @@ public class SignUpPage extends BasePage {
 
     // Element locator methods
     public WebElement nameInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='signup-name']"));
+        return driver.findElement(By.xpath("//input[@data-qa='signup-name']"));
     }
 
     public WebElement emailInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='signup-email']"));
+        return driver.findElement(By.xpath("//input[@data-qa='signup-email']"));
     }
 
     public WebElement signupButton() {
@@ -29,75 +29,75 @@ public class SignUpPage extends BasePage {
     }
 
     public WebElement titleMrRadio() {
-        return driver.findElement(By.cssSelector("#id_gender1"));
+        return driver.findElement(By.id("id_gender1"));
     }
 
     public WebElement titleMrsRadio() {
-        return driver.findElement(By.cssSelector("#id_gender2"));
+        return driver.findElement(By.id("id_gender2"));
     }
 
     public WebElement passwordInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='password']"));
+        return driver.findElement(By.id("password"));
     }
 
     public WebElement daysDropdown() {
-        return driver.findElement(By.cssSelector("select[data-qa='days']"));
+        return driver.findElement(By.id("days"));
     }
 
     public WebElement monthsDropdown() {
-        return driver.findElement(By.cssSelector("select[data-qa='months']"));
+        return driver.findElement(By.id("months"));
     }
 
     public WebElement yearsDropdown() {
-        return driver.findElement(By.cssSelector("select[data-qa='years']"));
+        return driver.findElement(By.id("years"));
     }
 
     public WebElement newsletterCheckbox() {
-        return driver.findElement(By.cssSelector("input#newsletter"));
+        return driver.findElement(By.id("newsletter"));
     }
 
     public WebElement specialOffersCheckbox() {
-        return driver.findElement(By.cssSelector("input#optin"));
+        return driver.findElement(By.id("optin"));
     }
 
     public WebElement firstNameInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='first_name']"));
+        return driver.findElement(By.id("first_name"));
     }
 
     public WebElement lastNameInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='last_name']"));
+        return driver.findElement(By.id("last_name"));
     }
 
     public WebElement companyInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='company']"));
+        return driver.findElement(By.id("company"));
     }
 
     public WebElement address1Input() {
-        return driver.findElement(By.cssSelector("input[data-qa='address']"));
+        return driver.findElement(By.id("address1"));
     }
 
     public WebElement address2Input() {
-        return driver.findElement(By.cssSelector("input[data-qa='address2']"));
+        return driver.findElement(By.id("address2"));
     }
 
     public WebElement countryDropdown() {
-        return driver.findElement(By.cssSelector("select[data-qa='country']"));
+        return driver.findElement(By.id("country"));
     }
 
     public WebElement stateInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='state']"));
+        return driver.findElement(By.id("state"));
     }
 
     public WebElement cityInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='city']"));
+        return driver.findElement(By.id("city"));
     }
 
     public WebElement zipcodeInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='zipcode']"));
+        return driver.findElement(By.id("zipcode"));
     }
 
     public WebElement mobileNumberInput() {
-        return driver.findElement(By.cssSelector("input[data-qa='mobile_number']"));
+        return driver.findElement(By.id("mobile_number"));
     }
 
     public WebElement createAccountButton() {
